@@ -2473,6 +2473,602 @@ body {
     }
 }
 
+@media(max-width:640px){
+    body{
+        overflow-x: hidden;
+    }
+
+    #home{
+        min-height:103vh;
+        width:112%
+    }
+
+    .circle{
+        position: absolute;
+        height:570px;
+        width:570px;
+        left:3px;
+        top:-290px;
+    }
+    
+    .nav {
+        height:80px;
+        width:100%;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left:90px;
+    }
+    
+    .nav h4{
+       height:40px;
+       width:120px;
+       text-align: center;
+       border-radius:18px;
+       align-content:center;
+       margin-right:10px;
+       position: relative;
+       overflow: hidden;
+       z-index:9;
+    }
+    
+    .nav h4::after {
+        content:'';
+        position: absolute;
+        height:100%;
+        width:100%;
+        background-color:white;
+        left:0;
+        bottom:-100%;
+        border-radius: 50%;
+        transition: all ease 0.4s;   
+    }
+    
+    .nav h4:hover::after{
+        bottom:0;
+        border-radius:0;
+    }
+    
+    .nav h4 a{
+        text-decoration:none;
+        color:white;
+        position:relative;
+        z-index: 9;
+    }
+    
+    .nav h4:hover a {
+        color:black;
+    }
+    
+    .Profile-Image{
+        position: absolute;
+        right:50px;
+        height:490px;
+        width:250px;
+        border-top-left-radius: 160px;
+        border-top-right-radius: 160px;
+        border-bottom-left-radius: 160px;
+        border-bottom-right-radius: 160px;
+    }
+
+    .backline{
+        position: absolute;
+        right:230px;
+        bottom:-90px;
+        height:108%;
+    }
+    
+    .backline1{
+        position: absolute;
+        right:200px;
+        bottom:-90px;
+        height:110%;
+    }
+    
+    .backline2{
+        position: absolute;
+        right:170px;
+        bottom:-90px;
+        height:113%;
+    }
+    
+    .backline3{
+        position: absolute;
+        right:140px;
+        bottom:-90px;
+        height:110%;
+    }
+    
+    .backline4{
+        position: absolute;
+        right:110px;
+        bottom:-90px;
+        height:108%;
+    }
+    
+    .bio-section {
+        height:300px;
+        width:600px;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left:120px;
+        margin-top:110px;
+        z-index: 999;
+    }
+    
+    .bio-section h1 {
+        font-size:5.7vw;
+        font-weight:900;
+        background: linear-gradient(150deg, #00BFFF, #FF69B4);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .bio-section h3 {
+        font-size: 2.7vw;
+        background: linear-gradient(150deg, #00BFFF, #FF69B4);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .bio-section p {
+        margin-top:10px;
+        font-size:1.8vw;
+        background: linear-gradient(150deg, #00BFFF, #FF69B4);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .btn {
+        position: absolute;
+        top:325px;
+        left:120px;
+        transition: all ease 1s;
+        font-size:2.3vw;
+        width:140px
+    }
+    
+    .butn{
+        position: absolute;
+        top:400px;
+        left:120px;
+        transition: all ease 0.8s;
+        font-size:2.3vw;
+        height:50px;
+        width: 140px;
+    }
+    
+    .butn:hover{
+        background: white;
+        color:black;
+    }
+    
+    .contact {
+        position: absolute;
+        top:310px;
+        left:120px;
+        height:50px;
+        width:140px;
+        background:blue;
+        padding:20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    #about {
+        min-height: 100vh;
+        width:112%;
+        background:#000;
+        position: relative;
+        margin-top: -70px;
+        transition: all ease 1s;
+    }
+    
+    #about h1{
+        font-size:5.9vw;
+        font-weight:600;
+        margin-top:50px;
+        margin-left:120px;
+        background: linear-gradient(175deg, #00BFFF, #FF69B4);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #about h1::after {
+        content:"";
+        position: absolute;
+        left:450px;
+        top:0px;
+        background:red;
+        height:5px;
+        width:100%;
+        z-index: 99;
+    }
+    
+    .bio-text{
+        height:320px;
+        width:530px;
+        padding-left:10px;
+        padding-right: 10px;
+        margin-top:50px;
+        margin-left:120px;
+        z-index:99;
+    }
+    .bio-text h4 {
+        font-size:2.4vw;              
+        max-width: 100%;              
+        max-height: 320px;            
+        overflow: hidden;            
+        text-overflow: ellipsis;      
+        word-wrap: break-word;
+        white-space: normal;     
+        line-height: 1.9;       
+        margin: 0;                     
+    }
+    
+    .circle-blur {
+        position:absolute;
+        left:300px;
+        top:340px;
+        height:26vw;
+        width:36vw;
+    }
+    
+    .circle1 {
+        position: absolute;
+        height:100%;
+        width:100%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        filter:blur(20px);
+        background-color:linear-gradient(#1E90FF, #8A2BE2);
+    }
+    
+    .circle2 {
+        position: absolute;
+        height:23vw;
+        width:23vw;
+        border-radius: 50%;
+        background:linear-gradient(#8A2BE2,#1E90FF);
+        filter:blur(20px);
+        animation-name: blur;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        z-index:9;
+    }
+    
+    .circle3 {
+        position: absolute;
+        height:25vw;
+        width:25vw;
+        border-radius:50%;
+        background:linear-gradient(#8A2BE2,#1E90FF);
+        filter:blur(20px);
+        animation-name: circle1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        z-index:9;
+    }
+    
+    @keyframes blur {
+        from{
+            transform: translate(-145%,45%);
+        }
+        to{
+            transform: translate(10%,30%);
+        }
+    }
+    
+    @keyframes circle1 {
+        from{
+            transform: translate(100%,40%);
+        }
+        to{
+            transform: translate(-50%,40%);
+        }   
+    }
+
+    #experience {
+        min-height: 190vh;
+        width:112%;
+        background:black;
+        position: relative;
+        margin-top: -70px;
+    }
+    
+    .skills{
+        position: absolute;
+        top:10px;
+        left:35px;
+        display:flex; 
+        margin: 20px 84px;
+    }
+    
+    .skills h5 {
+        font-size:1.9vw;
+        color:white;
+    }
+    
+    .skills::before{
+        content:"";
+        height:5px;
+        width:5px;
+        background: red;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .container {
+        position: absolute;
+        background: yellow;
+        overflow-x: auto;
+        white-space: nowrap;
+        margin-top: 70px;
+        height:90px;
+        z-index:99;
+    }
+    
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .content {
+        display: inline-block;
+        white-space: nowrap;
+    }
+    
+    .container h1 {
+        font-size:8.0vw;
+        color:black;
+        display: inline-block;
+    }
+    
+    .dot{
+        height:40px;
+        width:40px;
+        background:red;
+        border-radius:50%;
+        display: inline-block;
+        /* margin-top:10px;
+        margin-left:30px;
+        margin-right: 20px;  */
+    }
+    
+    #experience h2{
+        position: absolute;
+        top:200px;
+        font-size:5.9vw;
+        font-weight:600;
+        margin-top: 20px;
+        margin-left:120px;
+        background: linear-gradient(175deg, #00BFFF, #FF69B4);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .exp{
+        position: absolute;
+        top:300px;
+        left:-70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height:790px;
+        width:900px;
+    }
+    
+    .line {
+        display: none;
+    }
+    
+    .exp1{
+        position: relative;
+        height:470px;
+        width:470px;
+        border-radius: 10px;         
+        padding:30px;
+        text-align: center;
+    }
+    
+    .exp1 img{
+        height:180px;
+        width:365px;
+        border-radius: 10px;
+    }
+    
+    .exp1 p{
+        font-size:2.1vw;
+        margin-top:20px;
+        color:white;
+        text-align: center;
+    }
+    
+    .btns{
+        position: absolute;
+        bottom:50px;
+        display:flex;
+        justify-content: space-evenly;
+        width:410px;
+    }
+    
+    .btns a{
+        text-decoration: none;
+        color:black;
+        background: white;
+        font-size:1.9vw;
+    }
+    
+    .exp1 button{
+        height:40px;
+        width:130px;
+        font-size: 0.9vw;
+        background: white;
+        border:none;
+        border-radius:10px;
+        font-weight:800;
+        cursor: pointer;
+    }
+
+    .page5{
+        min-height:60vh;
+        max-width:100%;
+        overflow:hidden;
+        background:transparent;
+    }
+    
+    .success {
+        position:fixed;
+        min-height:108vh;
+        width:100%;
+        bottom:0%;
+        z-index:-1;
+        background-color:white;
+        color:#000;
+    }
+    
+    .success p {
+        position: absolute;
+        font-size:2.3vw;
+        /* margin-top: -560px;
+        margin-left: -40px; */
+        top:570px;
+        left:29px;
+        color:white;
+        background:black;
+        padding: 10px;
+        border-radius: 10px;;
+    }
+    
+    .heading{
+        font-size:10vw;
+        /* margin-top: -370px;
+        margin-left: -45px; */
+        position: absolute;
+        top:600px;
+        left: 28px;
+        background: linear-gradient(180deg, #ffd700, #ff8c00);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    }
+    
+    .arrow1 {
+        height:150px;
+        width:150px;
+        position: absolute;
+        top:470px;
+        left:70px;
+    }
+    
+    .w3schools {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#f3e5f5;
+        top:420px;
+        left:30px;
+        border-radius: 10px;
+        padding:20px;
+        transform: rotate(-10deg);
+    }
+    
+    .w3schools img{
+        height: 20px;
+        width:20px;
+    }
+    
+    .w3schools h5{
+        font-size:1.5vw;
+        margin-left: 10px;
+    }
+    
+    .arrow2 {
+        height:150px;
+        width:150px;
+        position: absolute;
+        top:480px;
+        left:460px;
+        transform: rotate(45deg);
+    }
+    
+    .namaste {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#F49F1C;
+        top:440px;
+        left:460px;
+        border-radius: 10px;
+        padding:10px;
+        transform: rotate(-10deg);
+    }
+    
+    .namaste img{
+        height: 20px;
+        width:70px;
+    }
+    
+    .namaste h5{
+        font-size:1.4vw;
+        margin-left: 10px;
+    }
+    
+    .arrow3 {
+        height:150px;
+        width:130px;
+        position: absolute;
+        top:470px;
+        left:270px;
+        transform: rotate(20deg);
+    }
+    
+    .FreeCodeCamp {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#97E3D6;
+        top:420px;
+        left:220px;
+        border-radius: 10px;
+        padding:20px;
+    }
+    
+    .FreeCodeCamp img{
+        height: 20px;
+        width:70px;
+    }
+    
+    .FreeCodeCamp h5{
+        font-size:1.5vw;
+        margin-left: 20px;
+    }
+    
+    .main-quote{
+        height:200px;
+        width:600px;
+        border-radius: 20px; 
+        transform: translate(3%,165%); 
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        z-index:0;
+    }
+    
+    .main-quote h1{
+        color:black;
+        font-size: 2.6vw;
+    }
+}
+
+
+
 @media(max-width:360px){
     body{
         overflow-x: hidden;
