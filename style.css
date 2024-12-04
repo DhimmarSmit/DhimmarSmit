@@ -7500,7 +7500,7 @@ body {
     }
 
     #home{
-        min-height:120vh;
+        min-height:115vh;
         width:100%;
     }
     
@@ -7737,7 +7737,7 @@ body {
     }
     
     #experience {
-        min-height: 195vh;
+        min-height: 185vh;
         width:100%;
         background:black;
         position: relative;
