@@ -7500,7 +7500,7 @@ body {
     }
 
     #home{
-        min-height:140vh;
+        min-height:125vh;
         width:100%;
     }
     
@@ -7681,7 +7681,7 @@ body {
     }
 
     #about {
-        min-height: 80vh;
+        min-height: 70vh;
         width:100%;
         background:#000;
         position: relative;
@@ -7737,7 +7737,7 @@ body {
     }
     
     #experience {
-        min-height: 225vh;
+        min-height: 195vh;
         width:100%;
         background:black;
         position: relative;
@@ -7874,7 +7874,7 @@ body {
     }
 
     .page5{
-        min-height:63vh;
+        min-height:55vh;
         max-width:100%;
         overflow:hidden;
         background:transparent;
@@ -7882,7 +7882,7 @@ body {
     
     .success {
         position:fixed;
-        min-height:84vh;
+        min-height:72.7vh;
         width:100%;
         bottom:0%;
         z-index:-1;
