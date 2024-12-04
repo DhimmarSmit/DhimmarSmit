@@ -7500,7 +7500,7 @@ body {
     }
 
     #home{
-        min-height:120vh;
+        min-height:125vh;
         width:100%;
     }
     
@@ -7569,8 +7569,8 @@ body {
     .Profile-Image{
         position: absolute;
         right:70px;
-        top:440px;
-        height:410px;
+        top:450px;
+        height:400px;
         width:230px;
         border-top-left-radius: 160px;
         border-top-right-radius: 160px;
@@ -7882,7 +7882,7 @@ body {
     
     .success {
         position:fixed;
-        min-height:70.7vh;
+        min-height:72.7vh;
         width:100%;
         bottom:0%;
         z-index:-1;
