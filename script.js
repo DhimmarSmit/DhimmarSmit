@@ -23,6 +23,25 @@ function skillsMoving(){
 }
 skillsMoving();
 
+let touchStartY = 0;
+
+window.addEventListener('touchstart', function(event) {
+    touchStartY = event.touches[0].clientY;
+});
+
+window.addEventListener('touchmove', function(event) {
+    let touchMoveY = event.touches[0].clientY;
+    let diffY = touchMoveY - touchStartY;
+
+    if (Math.abs(diffY) > 10) {  // Threshold to avoid minor movements
+        if (diffY > 0) {
+            console.log('Scrolled down with touch');
+        } else {
+            console.log('Scrolled up with touch');
+        }
+    }
+});
+
 function socialAnimation(){
     var contactButton = document.querySelector(".btn");
     var homebtn = document.querySelector(".home");
