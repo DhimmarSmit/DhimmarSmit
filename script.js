@@ -76,20 +76,20 @@ function socialAnimation() {
         }, 10000);
     });
 }
-
+var tl = gsap.timeline()
 // Preloader animation
-gsap.to('.preloader', {
+tl.to('.preloader', {
     y: '-100%',
     borderBottomLeftRadius: '10px',
     borderBottomRightRadius: '10px',
-    duration: 2,
+    duration: 1,
     ease: 'power2.out',
 });
 
 // Navbar animation
-gsap.to('.nav', {
+tl.to('.nav', {
     y: '0%',
-    duration: 3,
+    duration: 1,
     ease: 'power2.out',
 });
 
