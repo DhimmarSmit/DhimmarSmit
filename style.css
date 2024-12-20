@@ -115,13 +115,14 @@ body {
     background-image: url("Profile-Image.png");
     background-position: center;
     background-size:400px;
+    filter:grayscale(100%);
 }
 
 
 .backline{
     position: absolute;
     right:540px;
-    bottom:-90px;
+    bottom:-740px;
     height:104%;
     width:2px;
     background: linear-gradient(150deg, #00BFFF, #FF69B4);
@@ -130,7 +131,7 @@ body {
 .backline1{
     position: absolute;
     right:510px;
-    bottom:-90px;
+    bottom:-770px;
     height:108%;
     width:3px;
     background: #fff;
@@ -139,7 +140,7 @@ body {
 .backline2{
     position: absolute;
     right:470px;
-    bottom:-90px;
+    bottom:-800px;
     height:112%;
     width:5px;
     background: linear-gradient(150deg, #00BFFF, #FF69B4);
@@ -148,7 +149,7 @@ body {
 .backline3{
     position: absolute;
     right:430px;
-    bottom:-90px;
+    bottom:-790px;
     height:108%;
     width:3px;
     background: #fff;
@@ -157,7 +158,7 @@ body {
 .backline4{
     position: absolute;
     right:400px;
-    bottom:-90px;
+    bottom:-770px;
     height:104%;
     width:2px;
     background: linear-gradient(150deg, #00BFFF, #FF69B4);;;

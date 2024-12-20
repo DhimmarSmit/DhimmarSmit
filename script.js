@@ -93,7 +93,41 @@ tl.to('.nav', {
     ease: 'power2.out',
 });
 
+setTimeout(()=>{
+    const image = document.querySelector('.Profile-Image');
+    image.style.filter = 'grayscale(0%)';
+    image.style.transition = 'all ease 1s';
+},2000);
 
+setTimeout(()=>{
+    const line = document.querySelector('.backline');
+    line.style.bottom = '-90px';
+    line.style.transition = 'all ease 2s';
+},4000);
+
+setTimeout(()=>{
+    const line = document.querySelector('.backline1');
+    line.style.bottom = '-90px';
+    line.style.transition = 'all ease 2s';
+},4000);
+
+setTimeout(()=>{
+    const line = document.querySelector('.backline2');
+    line.style.bottom = '-90px';
+    line.style.transition = 'all ease 2s';
+},4000);
+
+setTimeout(()=>{
+    const line = document.querySelector('.backline3');
+    line.style.bottom = '-90px';
+    line.style.transition = 'all ease 2s';
+},4000);
+
+setTimeout(()=>{
+    const line = document.querySelector('.backline4');
+    line.style.bottom = '-90px';
+    line.style.transition = 'all ease 2s';
+},4000);
 
 
 // Initialize all functions
