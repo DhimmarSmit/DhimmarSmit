@@ -4337,7 +4337,7 @@ body {
     }
 
     #home{
-        min-height:50vh;
+        min-height:160vh;
         width:100%;
     }
     
@@ -4514,7 +4514,7 @@ body {
     }
 
     #about {
-        min-height: 50vh;
+        min-height: 160vh;
         width:100%;
         background:#000;
         position: relative;
@@ -4632,7 +4632,7 @@ body {
     }
 
     #experience {
-        min-height: 145vh;
+        min-height: 475vh;
         width:100%;
         background:black;
         position: relative;
@@ -4781,7 +4781,7 @@ body {
     }
 
     .page5{
-        min-height:35vh;
+        min-height:125vh;
         max-width:100%;
         overflow:hidden;
         background:transparent;
@@ -4789,7 +4789,7 @@ body {
     
     .success {
         position:fixed;
-        min-height:38.4vh;
+        min-height:127.4vh;
         width:100%;
         bottom:0%;
         z-index:-1;
@@ -4922,7 +4922,7 @@ body {
         height:200px;
         width:800px;
         border-radius: 20px; 
-        transform: translate(5%,35%); 
+        transform: translate(5%,15%); 
         justify-content: center;
         display: flex;
         text-align: center;
