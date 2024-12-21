@@ -7912,7 +7912,7 @@ body {
 
     #home{
         width:100%;
-        min-height:52vh
+        min-height:172vh
     }
     
     .circle{
@@ -8087,7 +8087,7 @@ body {
     }
 
     #about {
-        min-height: 55vh;
+        min-height: 165vh;
         width:100%;
         background:#000;
         position: relative;
@@ -8205,7 +8205,7 @@ body {
     }
 
     #experience {
-        min-height: 155vh;
+        min-height: 510vh;
         width:100%;
         background:black;
         position: relative;
@@ -8350,7 +8350,7 @@ body {
     
     .success {
         position:fixed;
-        min-height:43.7vh;
+        min-height:142.4vh;
         width:100%;
         bottom:0%;
         z-index:-1;
