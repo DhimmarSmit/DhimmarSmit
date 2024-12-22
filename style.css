@@ -180,33 +180,46 @@ body {
     font-weight:900;
     background: linear-gradient(150deg, #00BFFF, #FF69B4);
     background-clip: text;
+    background-size: 200%;
     -webkit-text-fill-color: transparent;
+    color:transparent;
     white-space: nowrap;
-    animation: typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
+    animation: moveGradient 3s infinite linear, typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
 }
 
 @keyframes typing {
     from {
-      width: 0;
+        width: 0;
     }
     to {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
-  @keyframes blink {
+@keyframes blink {
     50% {
-      border-color: transparent;
+        border-right-color: transparent;
     }
-  }
+}
 
 .bio-section h3 {
     font-size: 2.0vw;
     background: linear-gradient(150deg, #00BFFF, #FF69B4);
     background-clip: text;
+    background-size: 200%;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
-    animation: typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
+    color:transparent;
+    animation:  moveGradient 3s infinite linear, typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
 }
 
 .bio-section p {
@@ -214,9 +227,11 @@ body {
     font-size:1.2vw;
     background: linear-gradient(150deg, #00BFFF, #FF69B4);
     background-clip: text;
+    background-size: 200%;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
-    animation: typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
+    color:transparent;
+    animation: moveGradient 3s infinite linear, typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
 }
 
 .btn {
