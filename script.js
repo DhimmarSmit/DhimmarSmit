@@ -3,7 +3,6 @@ function enableSmoothScrolling() {
     const locoScroll = new LocomotiveScroll({
         el: document.querySelector('.main'),
         smooth: true,
-        lerp: 0.05,
     });
 
     // Sync Locomotive Scroll with ScrollTrigger
@@ -87,7 +86,7 @@ tl.to('.preloader', {
 });
 
 // Navbar animation
-tl.to('.nav', {
+tl.to('nav', {
     y: '0%',
     duration: 1,
     ease: 'power2.out',
@@ -101,31 +100,31 @@ setTimeout(()=>{
 
 setTimeout(()=>{
     const line = document.querySelector('.backline');
-    line.style.bottom = '-90px';
+    line.style.bottom = '0';
     line.style.transition = 'all ease 2s';
 },4000);
 
 setTimeout(()=>{
     const line = document.querySelector('.backline1');
-    line.style.bottom = '-90px';
+    line.style.bottom = '0';
     line.style.transition = 'all ease 2s';
 },4000);
 
 setTimeout(()=>{
     const line = document.querySelector('.backline2');
-    line.style.bottom = '-90px';
+    line.style.bottom = '0';
     line.style.transition = 'all ease 2s';
 },4000);
 
 setTimeout(()=>{
     const line = document.querySelector('.backline3');
-    line.style.bottom = '-90px';
+    line.style.bottom = '0';
     line.style.transition = 'all ease 2s';
 },4000);
 
 setTimeout(()=>{
     const line = document.querySelector('.backline4');
-    line.style.bottom = '-90px';
+    line.style.bottom = '0';
     line.style.transition = 'all ease 2s';
 },4000);
 
