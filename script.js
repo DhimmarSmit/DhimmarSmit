@@ -43,8 +43,8 @@ function enableSmoothScrolling() {
 }
 
 function skillsMoving() {
-    window.addEventListener('wheel', function (event) {
-        if (event.deltaY > 0) {
+    window.addEventListener('wheel', function (eve) {
+        if (eve.deltaY > 0) {
             gsap.to('.content', {
                 transform: 'translateX(-200%)',
                 repeat: -1,
@@ -63,6 +63,14 @@ function skillsMoving() {
         }
     });
 }
+
+window.addEventListener('scroll', () => {
+     gsap.from('.content',{
+        transform: 'translateX(-200%)',
+        duration:10,
+     })
+     console.log('he Hari');
+})
 
 function socialAnimation() {
     const contactButton = document.querySelector('.btn');
