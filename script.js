@@ -64,14 +64,6 @@ function skillsMoving() {
     });
 }
 
-window.addEventListener('scroll', () => {
-     gsap.from('.content',{
-        transform: 'translateX(-200%)',
-        duration:10,
-     })
-     console.log('he Hari');
-})
-
 function socialAnimation() {
     const contactButton = document.querySelector('.btn');
 
