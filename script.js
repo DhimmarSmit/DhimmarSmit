@@ -1,25 +1,40 @@
-function skillsMoving() {
-    window.addEventListener('wheel', function (eve) {
-        if (eve.deltaY > 0) {
-            gsap.to('.content', {
-                transform: 'translateX(-200%)',
-                repeat: -1,
-                duration: 10,
-                ease: 'none',
-                delay: 'none',
-            });
-        } else {
-            gsap.to('.content', {
-                transform: 'translateX(0%)',
-                repeat: -1,
-                duration: 10,
-                ease: 'none',
-                delay: 'none',
-            });
-        }
-    });
-}
-skillsMoving();
+// function skillsMoving() {
+//     window.addEventListener('wheel', function (eve) {
+//         if (eve.deltaY > 0) {
+//             gsap.to('.content', {
+//                 transform: 'translateX(-200%)',
+//                 repeat: -1,
+//                 duration: 10,
+//                 ease: 'none',
+//                 delay: 'none',
+//             });
+//         } else {
+//             gsap.to('.content', {
+//                 transform: 'translateX(0%)',
+//                 repeat: -1,
+//                 duration: 10,
+//                 ease: 'none',
+//                 delay: 'none',
+//             });
+//         }
+//     });
+// }
+// skillsMoving();
+
+gsap.from('.bio-text',{
+    y:100,
+    opacity:0,
+    duration:1,
+    scrollTrigger:'#about .bio-text'
+})
+
+gsap.from('.exp1',{
+    y:100,
+    opacity:0,
+    duration:1,
+    // stagger:0.5
+    scrollTrigger:'#experience .exp1'
+})
 
 
 var tl = gsap.timeline()
@@ -38,6 +53,7 @@ tl.to('nav', {
     duration: 1,
     ease: 'power2.out',
 });
+
 
 
 
