@@ -52,7 +52,7 @@ tl.to('.preloader', {
     y: '-100%',
     borderBottomLeftRadius: '10px',
     borderBottomRightRadius: '10px',
-    duration: 1,
+    duration: 3,
     ease: 'power2.out',
 });
 
