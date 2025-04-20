@@ -25,7 +25,12 @@ gsap.from('.bio-text',{
     y:100,
     opacity:0,
     duration:1,
-    scrollTrigger:'#about .bio-text'
+    scrollTrigger:{
+        trigger:"#about .bio-text",
+        scroller:'body',
+        markers:false,
+        start:'top 50%'
+    }
 })
 
 gsap.from('.exp1',{
@@ -33,7 +38,11 @@ gsap.from('.exp1',{
     opacity:0,
     duration:1,
     // stagger:0.5
-    scrollTrigger:'#experience .exp1'
+    scrollTrigger:{
+        trigger:'#experience .exp1',
+        scroller:'body',
+        start:'top 50%'
+    }
 })
 
 
