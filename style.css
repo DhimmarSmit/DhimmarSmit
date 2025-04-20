@@ -325,6 +325,7 @@ nav {
     width: 100%;
     position: relative;
     background: white;
+    border-top: 2px solid black;
 }
 
 .container {
