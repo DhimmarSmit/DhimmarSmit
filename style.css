@@ -535,6 +535,7 @@ footer {
     align-items: center;
     justify-content: left;
     gap:20px;
+    width:100%;
 }
 
 .contact-details i{
@@ -661,7 +662,9 @@ footer {
         gap: 20px;
     }
 
-    
+    #experience h2 {
+        font-size: 3.0rem;
+    }
     
 }
 
@@ -754,4 +757,20 @@ footer {
         font-size: 0.9rem;
     }
     
+    .container {
+        padding:20px;
+    }
+
+    .content h1{
+        font-size: 2.5rem;
+    }
+
+    .languages img {
+        width:200px;
+    }
+
+    .left-content h1 {
+        font-size: 1.5rem;
+        z-index:9999;
+    }
 }
