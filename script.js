@@ -59,9 +59,25 @@ tl.to('.preloader', {
 // Navbar animation
 tl.to('nav', {
     y: '0%',
-    duration: 1,
+    duration: 0.6,
     ease: 'power2.out',
 });
+
+tl.from('.right-content',{
+    x:100,
+    opacity:0,
+    duration:1,
+    ease:'power2.out'
+})
+
+
+tl.from('.left-content',{
+    x:-100,
+    opacity:0,
+    duration:3,
+    ease:'power2.out'
+})
+
 
 
 
