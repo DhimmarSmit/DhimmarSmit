@@ -78,7 +78,25 @@ tl.from('.left-content',{
     ease:'power2.out'
 })
 
+var home = document.querySelector('#home');
+var cursor = document.querySelector('#cursor');
 
+home.addEventListener('mousemove',function(event){
+    gsap.to(cursor,{
+        x:event.x,
+        y:event.y,
+        duration:1
+    })
+})
 
+home.addEventListener('mouseleave',function(event){
+    gsap.to(cursor,{
+        display:'none'
+    })
+})
 
-
+home.addEventListener('mouseenter',function(event){
+    gsap.to(cursor,{
+        display:'block'
+    })
+})

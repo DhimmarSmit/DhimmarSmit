@@ -32,6 +32,14 @@ html, body {
     background: white;
 }
 
+#cursor{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    background:rgba(255, 0, 0, 0.271);
+    position: fixed;
+}
+
 nav {
     width: 100%;
     display: flex;
