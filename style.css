@@ -742,6 +742,10 @@ footer {
         padding: 20px 70px;
         z-index: 999;
     }
+
+    #cursor{
+       display:none;
+    }
 }
 
 @media (max-width:450px) {
