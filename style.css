@@ -36,7 +36,7 @@ html, body {
     height:80px;
     width:80px;
     border-radius: 50%;
-    background:rgba(255, 0, 0, 0.271);
+    background:brown;
     position: fixed;
 }
 
@@ -317,6 +317,7 @@ nav {
     position: relative;
     padding: 20px;
     border: 3px dashed #8A2BE2;
+    overflow: hidden;
 }
 
 .languages {

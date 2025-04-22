@@ -21,7 +21,7 @@
 // }
 // skillsMoving();
 
-gsap.from('.bio-text',{
+gsap.from('.bio-text h4',{
     y:100,
     opacity:0,
     duration:1,
@@ -33,11 +33,23 @@ gsap.from('.bio-text',{
     }
 })
 
-gsap.from('.exp1',{
-    y:100,
+gsap.from('.left',{
+    x:-100,
     opacity:0,
     duration:1,
-    // stagger:0.5
+    stagger:0.5,
+    scrollTrigger:{
+        trigger:'#experience .exp1',
+        scroller:'body',
+        start:'top 50%'
+    }
+})
+
+gsap.from('.right',{
+    x:100,
+    opacity:0,
+    duration:1,
+    stagger:0.5,
     scrollTrigger:{
         trigger:'#experience .exp1',
         scroller:'body',
@@ -66,7 +78,7 @@ tl.to('nav', {
 tl.from('.right-content',{
     x:100,
     opacity:0,
-    duration:1,
+    duration:0.4,
     ease:'power2.out'
 })
 
@@ -74,7 +86,7 @@ tl.from('.right-content',{
 tl.from('.left-content',{
     x:-100,
     opacity:0,
-    duration:3,
+    duration:0.5,
     ease:'power2.out'
 })
 
