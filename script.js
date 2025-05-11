@@ -78,16 +78,14 @@ tl.to('nav', {
 tl.from('.right-content',{
     x:100,
     opacity:0,
-    duration:0.4,
-    ease:'power2.out'
+    duration:0.7,
 })
 
 
 tl.from('.left-content',{
     x:-100,
     opacity:0,
-    duration:0.5,
-    ease:'power2.out'
+    duration:0.7,
 })
 
 var home = document.querySelector('#home');
